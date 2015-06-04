@@ -45,7 +45,7 @@ table, td, tr {
 			</div>
 			</form>
 			<div class="register-notice">
-				<span>Not Registerd Yet? &nbsp;&nbsp;</span><a href="new_user.php">Signup Here!</a>
+				<span>Not Registered Yet? &nbsp;&nbsp;</span><a href="new_user.php">Signup Here!</a>
 			</div>
 			
 		</div>

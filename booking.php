@@ -10,13 +10,13 @@
 	echo $roomNo;
 	echo $guestID;
 	echo $startDate;
-	if(!mysql_query("INSERT INTO booking (hotelID, roomNo, guestID, startDate, endDate) VALUES ('$hotelID', '$roomNo', '$guestID', '$startDate', '$endDate')"))
+	if(mysql_query("INSERT INTO booking (hotelID, roomNo, guestID, startDate, endDate) VALUES ('$hotelID', '$roomNo', '$guestID', '$startDate', '$endDate')"))
 	{
 		echo ("Insert Failed!");
 		echo("Error description: " . mysqli_error($con));
 	}
 	else{
-		echo ("Insert Successfully!");
+		echo ("Insert Successfully! Back after 5s...");
 	}
 ?>
 <html>
